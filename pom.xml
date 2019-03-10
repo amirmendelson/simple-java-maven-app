@@ -54,9 +54,7 @@
 		<version>${sonar-maven-plugin.version}</version>
 	</plugin>
 	  
-	  
-	  <sonar-maven-plugin.version>3.4.0.905</sonar-maven-plugin.version>
-	  
+	  	  
     </plugins>
 
   </build>
