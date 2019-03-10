@@ -15,6 +15,20 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  
+  <properties>
+			<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+			<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+			<!-- plugins -->
+			<sonar-maven-plugin.version>3.4.0.905</sonar-maven-plugin.version>
+			<jacoco-maven-plugin.version>0.8.1</jacoco-maven-plugin.version>
+
+			<sonar.host.url>localhost</sonar.host.url>
+  </properties>
+  
+  
   <build>
     <plugins>
       <plugin>
@@ -32,6 +46,22 @@
           </archive>
         </configuration>
       </plugin>
+	  
+	  
+	<plugin>
+		<groupId>org.sonarsource.scanner.maven</groupId>
+		<artifactId>sonar-maven-plugin</artifactId>
+		<version>${sonar-maven-plugin.version}</version>
+	</plugin>
+	  
+	  
+	  <sonar-maven-plugin.version>3.4.0.905</sonar-maven-plugin.version>
+	  
     </plugins>
+
   </build>
+
 </project>
+
+
+
