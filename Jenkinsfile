@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'mvn -B -DskipTests clean sonar:sonar install'
+                sh 'mvn -B -DskipTests clean install'
             }
         }
         stage('Test') {
@@ -24,6 +24,12 @@ pipeline {
                 }
             }
         }
+        stage('Sonar') {
+            steps {
+                sh 'mvn sonar:sonar'
+            }
+        }
+
         stage('Deliver') { 
             steps {
                 sh './jenkins/scripts/deliver.sh' 
