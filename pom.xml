@@ -24,8 +24,9 @@
 			<!-- plugins -->
 			<sonar-maven-plugin.version>3.4.0.905</sonar-maven-plugin.version>
 			<jacoco-maven-plugin.version>0.8.1</jacoco-maven-plugin.version>
-
-			<sonar.host.url>http://147.135.194.187</sonar.host.url>
+            <!--  
+			<sonar.host.url>147.135.194.187</sonar.host.url>
+			--> 
   </properties>
   
   
