@@ -27,8 +27,13 @@
             
 			
 			<sonar.host.url>http://147.135.194.187:9000</sonar.host.url>
+			
+		   <sonar.login>admin</sonar.login>
+		   <sonar.password>admin</sonar.password>
 			 
   </properties>
+  
+  
   
   
   <build>
