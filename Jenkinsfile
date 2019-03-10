@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'mvn -B -DskipTests clean sonar install'
+                sh 'mvn -B -DskipTests clean sonar:sonar install'
             }
         }
         stage('Test') {
