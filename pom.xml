@@ -29,8 +29,8 @@
 			<sonar.host.url>http://147.135.194.187:9000</sonar.host.url>
 			<sonar.language>java</sonar.language>
 			
-		   <sonar.login>admin</sonar.login>
-		   <sonar.password>admin</sonar.password>
+		   <sonar.login>3e30a2b503398e5afc92af1d2464109ed7851e1a</sonar.login>
+		   <!-- <sonar.password>admin</sonar.password> --> 
 		   
   </properties>
   
